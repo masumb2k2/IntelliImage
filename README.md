@@ -1,0 +1,33 @@
+Environment variable require for this project is as follows:
+
+#clerk
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_ZW5qb3llZC1oYWdmaXNoLTEwLmNsZXJrLmFjY291bnRzLmRldiQ
+CLERK_SECRET_KEY=sk_test_h6Ew8YZItSavCt4csmUQHjimcz2QWYT8n2QTcptVkn
+
+#clerk url
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+
+#mongodb
+MONGODB_URL=mongodb+srv://masumbillah123955:masumbillah123955@cluster0.xsig96i.mongodb.net/?retryWrites=true&w=majority
+
+#clerk webhooks secret
+WEBHOOK_SECRET=whsec_cfqyOKODoEnG7zlyTTQl/EJGNX0JZtUw
+
+#clodinary
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=dxcurwfpz
+CLOUDINARY_API_KEY=564723789837962
+CLOUDINARY_API_SECRET=HGnkuIw4q7q-Pn-LJ80jyW3DFR4
+
+
+#stripe
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_51OnnWRGwAtoBQfzMhyxU6p3Miyt61yTHOjsyt6Nv4kn54gOpRGDMXMvssM3sGDXNuRuOKpLwK9vTCI176O4GNlOL00UxKgKWtm
+STRIPE_SECRET_KEY=sk_test_51OnnWRGwAtoBQfzMZq37IM2KmQGfhjkDtjAa2DHTFsxNmQbyyKAvntQmayADWibMXMPcp3BfP0s8Bj6eC5pPtrx300Hk56qHqQ
+
+STRIPE_WEBHOOK_SECRET=whsec_i5XBpSrYa8lmZBLNg0xBQAGKNQBbnz9k
+
+#OTHER
+#NEXT_PUBLIC_SERVER_URL=http://localhost:3000
+NEXT_PUBLIC_SERVER_URL=https://imaginary-saas.vercel.app/api/webhooks/stripe
